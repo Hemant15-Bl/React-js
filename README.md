@@ -6,9 +6,11 @@ https://leafy-biscochitos-6954bd.netlify.app/
 
 
 # Getting Started
+
 ## Prerequisites
 -Node.js
 -npm
+- You need an API key OpenWeatherMap. After creating an account, grab your key.
 ### Installation
 git clone https://github.com/Hemant15-Bl/React-js
 
@@ -17,10 +19,10 @@ npm install
 ## Run the App
 npm run dev
 
-# Environment Variables
+## Environment Variables
 VITE_APP_ID='2ed2e50c9aab73870d829b06d37b51ad'
 
-# Feature
+## Feature
 - Weather by current geolocation
 - Dark mode
 - Unit toggle(Calsius)
