@@ -1,4 +1,4 @@
-![image alt](https://github.com/Hemant15-Bl/React-js/blob/Screenshot 2025-07-29 152556/Readme.png)
+![image alt](https://github.com/Hemant15-Bl/React-js/blob/main/Screenshot%202025-07-29%20152556.png?raw=true)
 
 
 The Weather App, user can search locations by city name and observe the weather.
