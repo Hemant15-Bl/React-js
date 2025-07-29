@@ -1,3 +1,6 @@
+![image alt](https://github.com/Hemant15-Bl/React-js/blob/Screenshot 2025-07-29 152556/Readme.png)
+
+
 The Weather App, user can search locations by city name and observe the weather.
 This app is developed using React.js and material-UI
 
