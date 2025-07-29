@@ -8,8 +8,8 @@ https://leafy-biscochitos-6954bd.netlify.app/
 # Getting Started
 
 ## Prerequisites
--Node.js
--npm
+- Node.js
+- npm
 - You need an API key OpenWeatherMap. After creating an account, grab your key.
 ### Installation
 git clone https://github.com/Hemant15-Bl/React-js
