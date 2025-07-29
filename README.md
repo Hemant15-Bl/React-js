@@ -1,12 +1,26 @@
-# React + Vite
+The Weather App, user can search locations by city name and observe the weather.
+This app is developed using React.js and material-UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Live Demo:
+https://leafy-biscochitos-6954bd.netlify.app/
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Getting Started
+## Prerequisites
+-Node.js
+-npm
+### Installation
+git clone https://github.com/Hemant15-Bl/React-js
 
-## Expanding the ESLint configuration
+npm install
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Run the App
+npm run dev
+
+# Environment Variables
+VITE_APP_ID='2ed2e50c9aab73870d829b06d37b51ad'
+
+# Feature
+- Weather by current geolocation
+- Dark mode
+- Unit toggle(Calsius)
