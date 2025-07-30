@@ -20,7 +20,7 @@ git clone https://github.com/Hemant15-Bl/React-js
 
 npm install
 
-## Run the App
+### Run the App
 npm run dev
 
 ## Api Integration
