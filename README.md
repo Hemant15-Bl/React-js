@@ -22,10 +22,14 @@ npm install
 ## Run the App
 npm run dev
 
-## Environment Variables
-VITE_APP_ID='2ed2e50c9aab73870d829b06d37b51ad'
+## Api Integration
+- Obtain an API key from a weather service provider.
+- Store the API key securely, in a .env file ( VITE_APP_ID='2ed2e50c9aab73870d829b06d37b51ad' ).
 
-## Feature
-- Weather by current geolocation
-- Dark mode
-- Unit toggle(Calsius)
+## State Management
+- Utilize React's useState hook to manage the application's state, such as weatherData (to store the fetched weather information) and error (to handle potential API errors).
+- useEffect hook to perform side effects, such as fetching weather data when the component mounts or when a specific dependency changes.
+
+## User Interface (UI) Development
+- Design and implement a user-friendly interface using standard HTML and CSS, or by incorporating a UI library.
+- Ensure the application is responsive and provides a consistent experience across different devices.
