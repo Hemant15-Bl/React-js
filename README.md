@@ -1,3 +1,5 @@
+# 🌤️ Weather App - React & Material UI
+
 ![image alt](https://github.com/Hemant15-Bl/React-js/blob/main/Weather.png?raw=true)
 
 # Overview
@@ -8,11 +10,28 @@ This app is developed using React.js and material-UI
 ## Live Demo:
 https://leafy-biscochitos-6954bd.netlify.app/
 
+---
 
-## Getting Started
+## ✨ Features
+- 🔍 **Global Search:** Find current weather for any city.
+- 📱 **Responsive Design:** Optimized for mobile, tablet, and desktop views.
+- 🎨 **Glassmorphism UI:** Built with Material-UI for a sleek, modern look.
+- 🐳 **Dockerized:** Ready for containerized deployment.
+
+---
+
+## 🐳 Run with Docker
+
+You can run this app instantly using the pre-built image from Docker Hub.
+
+```bash
+docker run -d -p 8080:80 --name my-weather-app hemantbarole/weather_app:v1.0
+```
+
+## 🛠️ Local Development
 
 ## Prerequisites
-- Node.js
+- Node.js (v18+)
 - npm
 - You need an API key OpenWeatherMap. After creating an account, grab your key.
 ### Installation
