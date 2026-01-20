@@ -42,11 +42,11 @@ const Weather = () => {
             return;
         }
 
-        try {
+        
             const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${import.meta.env.VITE_APP_ID}`;
             const response = await fetch(url);
             const data = await response.json();
-            console.log(data);
+            //console.log(data);
 
             const icon = allIcons[data.weather[0].icon] || clear_icon;
 
@@ -60,10 +60,7 @@ const Weather = () => {
                 icon: icon
             })
 
-        } catch (error) {
-            setWeatherData(false);
-            //console.error("Error for fecthing the data !!");
-        }
+        
     }
 
     useEffect(() => {
@@ -95,7 +92,7 @@ const Weather = () => {
                         </div>
                     </div>
 
-                </> : <> </>}
+                </> : <> <p style={{color:"white", textAlign:"center", marginTop:"3%", fontWeight:"bold"}}>--- You can check weather by enter city name ---</p></>}
 
         </div>
     )
