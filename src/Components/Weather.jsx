@@ -92,7 +92,7 @@ const Weather = () => {
     }
 
     useEffect(() => {
-        search("India");
+        search("London");
     }, []);
 
     return (
