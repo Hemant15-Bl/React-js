@@ -9,6 +9,14 @@ This app is developed using React.js and material-UI
 https://leafy-biscochitos-6954bd.netlify.app/
 
 
+## 🐳 Run with Docker
+
+You can run this app instantly using the pre-built image from Docker Hub.
+
+```bash
+docker run -d -p 8080:80 --name my-weather-app hemant15/weather-app:v1.0
+
+
 ## Getting Started
 
 ## Prerequisites
