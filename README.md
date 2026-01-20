@@ -1,12 +1,38 @@
-# React + Vite
+![image alt](https://github.com/Hemant15-Bl/React-js/blob/main/Screenshot%202025-10-05%20063752.png?raw=true)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![image alt](https://github.com/Hemant15-Bl/React-js/blob/main/Screenshot%202025-07-29%20152556.png?raw=true)
 
-Currently, two official plugins are available:
+# Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The Weather App, user can search locations by city name and observe the weather.
+This app is developed using React.js and material-UI
 
-## Expanding the ESLint configuration
+## Live Demo:
+https://leafy-biscochitos-6954bd.netlify.app/
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## Getting Started
+
+## Prerequisites
+- Node.js
+- npm
+- You need an API key OpenWeatherMap. After creating an account, grab your key.
+### Installation
+git clone https://github.com/Hemant15-Bl/React-js
+
+npm install
+
+### Run the App
+npm run dev
+
+## Api Integration
+- Obtain an API key from a weather service provider.
+- Store the API key securely, in a .env file ( VITE_APP_ID='2ed2e50c9aab73870d829b06d37b51ad' ).
+
+## State Management
+- Utilize React's useState hook to manage the application's state, such as weatherData (to store the fetched weather information) and error (to handle potential API errors).
+- useEffect hook to perform side effects, such as fetching weather data when the component mounts or when a specific dependency changes.
+
+## User Interface (UI) Development
+- Design and implement a user-friendly interface using standard HTML and CSS, or by incorporating a UI library.
+- Ensure the application is responsive and provides a consistent experience across different devices.
